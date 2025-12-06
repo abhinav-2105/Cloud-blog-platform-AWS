@@ -1,0 +1,25 @@
+ # Configuration files with sensitive data
+   config.php
+   terraform.tfvars
+   *.pem
+   *.key
+   
+   # Terraform
+   .terraform.lock.hcl
+    terraform/.terraform/
+    terraform/terraform.tfstate
+    terraform/terraform.tfstate.backup
+   *.tfstate
+   *.tfstate.backup
+   
+   # PHP
+   vendor/
+   composer.lock
+   
+   # IDE
+   .vscode/
+   .idea/
+   
+   # OS
+   .DS_Store
+   Thumbs.db
