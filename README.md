@@ -8,24 +8,6 @@ A scalable, cloud-native blog platform built on Amazon Web Services (AWS) demons
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Component Details](#component-details)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Deployment Guide](#deployment-guide)
-- [Web Application](#web-application)
-- [API Integration](#api-integration)
-- [Boto3 Scripts](#boto3-scripts)
-- [Data Flow](#data-flow)
-- [Challenges & Solutions](#challenges--solutions)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
-
 ## 🎯 Overview
 
 This project demonstrates the design and deployment of a production-ready, scalable web application using AWS cloud services. The platform allows users to create blog posts with images, categorize content, apply tags, and view posts through an elegant web interface.
@@ -41,6 +23,7 @@ This project demonstrates the design and deployment of a production-ready, scala
 
 ## 🏗️ Architecture
 
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                         Internet                            │
 └────────────────────────┬────────────────────────────────────┘
@@ -259,7 +242,7 @@ This project demonstrates the design and deployment of a production-ready, scala
 
 ## 📁 Project Structure
 
-```
+```text
 project/
 ├── boto3_scripts/              # Python scripts for AWS automation
 │   ├── create_bucket_upload.py
